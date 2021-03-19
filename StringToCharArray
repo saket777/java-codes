@@ -1,0 +1,9 @@
+package com.company;
+import java.util.Arrays;
+public class StringToCharArray {
+    public static void main(String[] args){
+        String st = "This is a String";
+        char[] chars = st.toCharArray();
+        System.out.println(Arrays.toString(chars));
+    }
+}
